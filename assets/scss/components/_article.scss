@@ -15,4 +15,20 @@
          background: none;
       }
    }
+
+   .article-card{
+      .text{
+         border-right: 1px solid #939598;
+         border-bottom: 1px solid #939598;
+         border-left: 1px solid #939598;
+
+         p{
+            font-size: 16px;
+         }
+      }
+   }
+
+   .foot-note{
+      font-size: 16px;
+   }
 }
