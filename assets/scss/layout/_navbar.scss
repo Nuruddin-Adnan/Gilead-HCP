@@ -1,0 +1,80 @@
+@use '../abstracts/variables';
+
+.header{
+   .header-top{
+      padding: 14px 0;
+      align-items: center;
+      h5{
+         font-family: gotham-bold;
+         font-size: 18px;
+      }
+
+      a{
+         font-size: 18px;
+         color: #fff;
+         text-decoration: underline;
+      }
+   }
+
+   .main-header{
+      background: rgba(variables.$color-ash, 0.05);
+      padding: 5px 0;
+
+      .navbar{
+
+         .navbar-brand{
+            img{
+               width: 100%;
+               max-width: 220px;
+
+               @media (max-width: 767px){
+                  max-width: 130px;
+               }
+            }
+         }
+
+         .navbar-toggler{
+            img{
+               max-width: 30px;
+            }
+         }
+   
+         .navbar-nav{
+            .nav-item{
+               &:not(:last-child){
+                  margin-right: 60px;
+               }
+   
+               .nav-link{
+                  font-family: gotham-bold;
+                  font-size: 18px;
+                  color: variables.$color-red;
+                  transition: all 0.3s ease-in-out;
+      
+                  &:hover{
+                     color: variables.$color-darkblue;
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   .promotional-header{
+      img{
+         @media (max-width: 991px){
+            max-width: 150px;
+         }
+      }
+
+      .promotional-text{
+         p{
+            font-size: 18px;
+
+            @media (max-width: 991px){
+               font-size: 16px;
+            }
+         }
+      }
+   }
+}
