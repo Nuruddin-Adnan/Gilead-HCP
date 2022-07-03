@@ -1,0 +1,10 @@
+@use '../abstracts/variables';
+
+// background color
+.bg-darkblue {
+    background-color: variables.$color-darkblue;
+}
+
+.bg-red {
+    background-color: variables.$color-red;
+}

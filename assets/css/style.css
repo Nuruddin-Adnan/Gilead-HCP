@@ -1,0 +1,111 @@
+@font-face {
+  font-family: gotham-book;
+  src: url(../fonts/GothamBook.ttf);
+}
+@font-face {
+  font-family: gotham-medium;
+  src: url(../fonts/GothamMedium.ttf);
+}
+@font-face {
+  font-family: gotham-bold;
+  src: url(../fonts/GothamBold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: gotham-book;
+  color: #000;
+}
+
+.main-title {
+  font-family: gotham-bold;
+  font-size: 36px;
+  color: #B51026;
+}
+
+.sub-title {
+  font-family: gotham-bold;
+  font-size: 22px;
+  color: #002543;
+}
+
+.article p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.fs-20px {
+  font-size: 20px;
+}
+
+.fs-16px {
+  font-size: 16px;
+}
+
+.text-red {
+  color: #B51026;
+}
+
+.text-darkblue {
+  color: #002543;
+}
+
+.bg-darkblue {
+  background-color: #002543;
+}
+
+.bg-red {
+  background-color: #B51026;
+}
+
+.btn-red {
+  font-family: gotham-bold;
+  font-size: 22px;
+  color: #fff;
+  background-color: #B51026;
+  border: none;
+  min-width: 160px;
+  min-height: 50px;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  line-height: 1;
+  transition: all 0.2s linear;
+}
+.btn-red:hover {
+  color: #fff;
+  background-color: #860c1c;
+}
+
+/*=== abstracts css start === */
+/*===// end of abstracts css === */
+/*=== base css start === */
+/*===// end of base css === */
+/*=== components css start === */
+/*===// end of components css === */
+/*=== layout css start === */
+/*===// end of layout css === */
+/*=== pages start === */
+/*===// end of pages  === *//*# sourceMappingURL=style.css.map */
