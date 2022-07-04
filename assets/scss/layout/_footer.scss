@@ -1,6 +1,10 @@
 .footer{
    .promotional-footer{
       background: rgba(#58595B, 0.05);
+
+      .container{
+         max-width: 1066px;
+      }
    }
 
    .main-footer{
