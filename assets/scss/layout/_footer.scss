@@ -12,6 +12,12 @@
       color: #fff;
       padding: 45px 0;
 
+      &.w-1066{
+         .container{
+            max-width: 1066px;
+         }
+      }
+
       h4{
          font-family: gotham-bold;
          font-size: 18px;
@@ -32,6 +38,11 @@
                font-family: gotham-book;
                font-size: 18px;
                text-decoration: underline;
+               transition: all 0.1s ease-in-out;
+
+               &:hover{
+                  color: #B51026;
+               }
             }
          }
       }

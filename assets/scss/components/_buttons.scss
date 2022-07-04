@@ -35,7 +35,7 @@
     transition: all 0.2s linear;
 
     &:hover {
-        color: #fff;
+        color: variables.$color-darkblue;
         background-color: darken(#fff, 10);
     }
 }

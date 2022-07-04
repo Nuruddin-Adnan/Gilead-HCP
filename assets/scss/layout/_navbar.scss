@@ -18,6 +18,9 @@
 
    .main-header{
       background: rgba(variables.$color-ash, 0.05);
+      @media (max-width: 1199px) {
+         padding: 8px 0;
+      }
 
       .navbar{
          padding: 0;
@@ -42,7 +45,7 @@
          .navbar-nav{
             .nav-item{
                &:not(:last-child){
-                  margin-right: 40px;
+                  margin-right: 50px;
                }
 
                &.dropdown{
