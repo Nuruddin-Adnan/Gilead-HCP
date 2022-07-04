@@ -18,9 +18,9 @@
 
    .main-header{
       background: rgba(variables.$color-ash, 0.05);
-      padding: 5px 0;
 
       .navbar{
+         padding: 0;
 
          .navbar-brand{
             img{
@@ -42,10 +42,40 @@
          .navbar-nav{
             .nav-item{
                &:not(:last-child){
-                  margin-right: 60px;
+                  margin-right: 40px;
+               }
+
+               &.dropdown{
+                  .nav-link{
+                     &:after{
+                        display: none;
+                     }
+
+                  }
+
+                  .dropdown-menu{
+                     border-top: 3px solid #707070;
+                     border-radius: 0;
+                     margin: 0;
+                     padding: 0;
+
+                     .dropdown-item{
+                        color: #B51026;
+                        padding: 20px;
+                        font-family: gotham-book;
+                        font-size: 22px;
+                        transition: all 0.2s ease-in-out;
+
+                        &:hover{
+                           color: #000;
+                           background: rgba(#40B4E5, 0.2);
+                        }
+                     }
+                  }
                }
    
                .nav-link{
+                  padding: 30px 10px;
                   font-family: gotham-bold;
                   font-size: 18px;
                   color: variables.$color-red;
@@ -54,6 +84,30 @@
                   &:hover{
                      color: variables.$color-darkblue;
                   }
+               }
+            }
+         }
+      }
+
+
+      .mobile-nav{
+         .offcanvas-header{
+            background: rgba(#58595B, 0.05);
+
+            img{
+               max-width: 130px;
+            }
+         }
+         .mobile-nav-item{
+            padding-bottom: 25px;
+            a{
+               font-family: gotham-book;
+               font-size: 22px;
+               color: rgb(0, 0, 0);
+               transition: all 0.1s ease-in-out;
+
+               &:hover{
+                  color: #40B4E5;
                }
             }
          }

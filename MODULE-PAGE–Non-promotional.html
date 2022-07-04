@@ -24,7 +24,7 @@
     </div>
 
     <div class="main-header">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-xl">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="assets/images/logo.png" alt="logo" class="img-fluid">
@@ -44,61 +44,64 @@
                   Resources
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Understanding HIV</a></li>
+                  <li><a class="dropdown-item" href="#">Tools for HCP</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">                  
+                  <li><a class="dropdown-item" href="#">Conference highlights</a></li>
+                  <li><a class="dropdown-item" href="#">SUMMIT webinar series</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Contact us</a>
+                <a class="nav-link" href="#">Contact us</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+
+      <!-- offcanvas for Mobile Nvigation -->
+      <div class="mobile-nav">
+         <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="mobileNAv" aria-labelledby="mobileNAvLabel">
+            <div class="offcanvas-header">
+               <img src="assets/images/logo.png" alt="logo">
+               <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                  <img src="assets/images/close.png" alt="close">
+               </button>
+            </div>
+            <div class="offcanvas-body border-0">
+               <div>
+                  <h4 class="sub-title text-red pt-4 pb-3">Resources</h4>
+                  <ul class="ps-0">
+                     <li class="mobile-nav-item"><a href="#">Understanding HIV</a></li>
+                     <li class="mobile-nav-item"><a href="#">Tools for HCP</a></li>
+                  </ul>
+               </div>
+   
+               <div>
+                  <h4 class="sub-title text-red pt-4 pb-3">Events</h4>
+                  <ul class="ps-0">
+                     <li class="mobile-nav-item"><a href="#">Conference highlights</a></li>
+                     <li class="mobile-nav-item"><a href="#">SUMMIT webinar series</a></li>
+                  </ul>
+               </div>
+   
+               <div>
+                  <a href="#" class="sub-title text-red pt-4 pb-3">Contact us</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- mobile nav -->
+
     </div>
   </header>
   <!-- ===//end of header section === -->
-
-
-  <!-- offcanvas for Mobile Nvigation -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileNAv" aria-labelledby="mobileNAvLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="mobileNAvLabel">Offcanvas</h5>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body border-0">
-      <ul class="ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Products</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Resources
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Contact us</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <!-- mobile nav -->
-
-
 
 
   <!-- === banner section start === -->
