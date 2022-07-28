@@ -7,11 +7,12 @@
     background-color: variables.$color-red;
     border: none;
     min-width: 160px;
-    min-height: 50px;
     text-align: center;
     display: inline-block;
-    padding: 14px;
-    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
     transition: all 0.2s linear;
 
     &:hover {
@@ -24,14 +25,15 @@
     font-family: gotham-bold;
     font-size: 22px;
     color: variables.$color-red;
-    background-color: #fff;;
+    background-color: #fff;
     border: none;
     min-width: 160px;
-    min-height: 50px;
     text-align: center;
     display: inline-block;
-    padding: 14px;
-    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
     transition: all 0.2s linear;
 
     &:hover {

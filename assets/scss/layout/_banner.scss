@@ -1,30 +1,32 @@
-.banner{
-   .banner-top{
-      padding: 7px 0;
-      p{
+.banner {
+   .banner-top {
+      p {
          font-family: gotham-book;
          font-size: 22px;
+         padding-top: 7px;
+         padding-bottom: 7px;
 
-         @media (max-width: 767px){
+         @media (max-width: 767px) {
             font-size: 18px;
          }
       }
    }
 
 
-   .banner-bottom{
-      padding: 15px 0;
-      @media (max-width: 767px){
-         padding: 10px 0;
-      }
+   .banner-bottom {
 
-      h4{
+      h4 {
          font-family: gotham-bold;
          font-size: 40px;
          color: #fff;
+         padding-top: 15px;
+         padding-bottom: 15px;
 
-         @media (max-width: 767px){
+
+         @media (max-width: 767px) {
             font-size: 28px;
+            padding-top: 10px;
+            padding-bottom: 10px;
          }
       }
    }
