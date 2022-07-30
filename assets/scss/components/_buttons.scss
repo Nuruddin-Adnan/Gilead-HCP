@@ -6,13 +6,12 @@
     color: #fff;
     background-color: variables.$color-red;
     border: none;
-    min-width: 160px;
-    text-align: center;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 14px;
-    padding-right: 14px;
+    max-width: 160px;
+    min-height: 50px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.2s linear;
 
     &:hover {
@@ -27,13 +26,11 @@
     color: variables.$color-red;
     background-color: #fff;
     border: none;
-    min-width: 160px;
-    text-align: center;
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 14px;
-    padding-right: 14px;
+    max-width: 160px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.2s linear;
 
     &:hover {
