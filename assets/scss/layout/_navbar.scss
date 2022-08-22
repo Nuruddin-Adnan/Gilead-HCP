@@ -53,6 +53,10 @@
                      &:after{
                         display: none;
                      }
+
+                     .show{
+                        color: variables.$color-darkblue;
+                     }
                   }
 
                   .dropdown-menu{
@@ -84,6 +88,19 @@
                   transition: all 0.3s ease-in-out;
       
                   &:hover{
+                     color: variables.$color-darkblue;
+                  }
+
+                  &.active{
+                     color: variables.$color-darkblue;
+                  }
+
+               }
+
+               .dropdown-toggle{
+                  color: variables.$color-red;
+
+                  &.show{
                      color: variables.$color-darkblue;
                   }
                }
