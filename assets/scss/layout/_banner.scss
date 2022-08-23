@@ -16,15 +16,15 @@
       top: 50%;
       transform: translateY(-50%);
       background: rgba(#B51026, 0.8);
-      width: 40%;
+      max-width: 40%;
       left: 50px;
       // text-align: center;
       padding: 40px;
       color: #fff;
 
       h3 {
-         font-size: 35px;
          font-family: "gotham-bold";
+         font-size: 35px;
       }
    }
 
